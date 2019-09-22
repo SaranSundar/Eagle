@@ -9,7 +9,7 @@ import {withRouter} from 'react-router-dom'
 function MaterialAppBar(props) {
 
     function goToMaps() {
-        props.history.push('/')
+        props.history.push('/map')
     }
 
     return (
